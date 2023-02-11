@@ -11,7 +11,7 @@ const app = express();
 
 app.use(express.json());
 
-const PORT = process.env.PORT || 5000 ;
+const PORT = process.env.PORT ;
 
 // const MONGO_URL = "mongodb://127.0.0.1";
 const MONGO_URL = process.env.MONGO_URL;
@@ -23,6 +23,10 @@ console.log("Mongo is connected ✌️😊");
 // const createfilerouter = require("router");
 
 // import moment from "moment";
+
+app.get("/", function (request, response) {
+    response.send("🙋‍♂️, 🌏 🎊✨🤩");
+  });
 
 app.use("/", createfileroute);
 // var date = (moment().format("MM/DD/YYYY"));
