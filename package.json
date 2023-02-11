@@ -15,5 +15,20 @@
   "engines": {
     "npm": ">=8.0.0 <9.0.0",
     "node": ">=16.0.0 <17.0.0"
-  }
+  },
+  "name": "day-39-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USHAPRIYADHARSINI/day-39-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/USHAPRIYADHARSINI/day-39-task/issues"
+  },
+  "homepage": "https://github.com/USHAPRIYADHARSINI/day-39-task#readme",
+  "description": ""
 }
